@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+ONLINE CALCULATOR
+        </title>
+        <!--Linking important external files-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/project_test.css">
+        <link rel="icon" href="image/Calculator-icon.png" type="image/icon">
+        <script src="js/App.js" defer></script>
+        
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="navbar">
+                <li><a href="">Home </a></li>
+                <li><a href="#table">About</a></li>
+                <li><a href="#CALC">Calculator</a></li>
+            </ul>
+            </div>
+        <article>
+            <section id="About">
+            <div class="think">
+                <div class ="intro">
+                    <p><h1>WELCOME TO OUR ONLINE CALCULATOR</h1></p>
+                    <p></h6>CSC310 GROUP 5</p>
+                </div>
+                <div class="space">
+                </div>
+            </div>
+                <div class="intro">
+                <p>Meet the team behind the scenes!</p>
+                </div>
+                    <table id="table">
+                        <tr><td onmouseover="trans()" onmouseout="trans2()">Wo<br><label class="one">Obasi winner</label><br><label class="one">20CG028106</label><br><label class="one">CSC</label></td><td onmouseover="trans3()" onmouseout="trans4()">Ot<br><label class="two">Toni Loba<br></label><br><label class="two">20CG028125</label><br><label class="two">CSC</label></td><td onmouseover="trans5()" onmouseout="trans6()">Do<br><label class="three">Adetola-David</label><br><label class="three">20CG028035</label><br><label class="three">CSC</label></td><td onmouseover="trans7()" onmouseout="trans8()">Ri<br><label class="four">ROBSON, INYENEABASI</label><br><label class="four">20CG028140</label><br><label class="four">CSC</label></td></tr>
+                        <tr><td onmouseover="trans9()" onmouseout="trans10()">Ta<br><label class="five">Tochuckwu Akpan</label><br><label class="five">20CG028043</label><br><label class="five">CSC</label></td><td onmouseover="trans11()" onmouseout="trans12()">Nt<br><label class="six">Nwokeji Tobenna</label><br><label class="six">20CH028175</label><br><label class="six">MIS</label></td><td onmouseover="trans13()" onmouseout="trans14()">Tt<br><label class="seven">Titomi Turner</label><br><label class="seven">20CH028191</label><br><label class="seven">MIS</label></td></tr>
+                    </table>
+                    <br>
+                    <div class="space2"></div>
+                    <p class="join">Would like to join us?,If yes fill the form below</p>
+
+                    <form class="form">
+                    <br>
+                    <input id ="first" type="text" maxlength="60" placeholder="Name">
+                    <br>
+                    <input type="text" maxlength="60" placeholder="Matric NO">
+                    <br>
+                    <input type="text" maxlength="60" placeholder="Age">
+                    <br>
+                    <input type="text" maxlength="60" placeholder="Phone number">
+                    <br>
+                    <input class = "answer" type="button" onclick="" value="Join Our Team">
+                    </form>
+                    <br>
+                    <div class="socials">
+                        <p class="social_text">Why not follow us on Social Media</p>
+                        <span class="social_container"><span class="social"><img src="image/facebook.png" height="96" width="96"></span><span class="social"><img src="image/twitter.png" height="96" width="96"></span><span class="social"><img src="image/instagram.png" height="96" width="96"></span></span>
+                    </div>
+            </section>
+
+            <div class="space2">
+
+            </div>
+            <div class="intro">
+                <p>Feel free to share your experience with us.</p>
+                </div>
+            <section id="CALC">
+                <div class="container">
+                    <div class="screen">
+                        <!-- A quick menu will be created here to access the advanced features of the calculator -->
+                        <div id ="expression"></div>
+                        <div id ="currentOperand">0</div>
+                    </div>
+                    <!-- the Html for Basic features starts here -->
+                        <button  class = "row-lg"id ="allClear">AC</button>
+                        <button class ="row-lg" id ="clear">CE</button>
+                        <button  class ="row-lg" class = "num" data-operator = "%">%</button>
+                        <button class ="col-o" data-operator = "/">&divide</button>
+                        <button  class = "row-g"data-number = "7">7</button>
+                        <button  class = "row-g"data-number= "8">8</button>
+                        <button class = "row-g"  data-number = "9">9</button>
+                        <button class = "col-o
+                        " data-operator = "*">&times</button>
+                        <button  class = "row-g"data-number = "4">4</button>
+                        <button  class ="row-g" data-number ="5">5</button>
+                        <button class = "row-g" data-number ="6">6</button>
+                        <button  class = "col-o"data-operator ="-">-</button>
+                        <button  class = "row-g"data-number = "1">1</button>
+                        <button  class = "row-g" data-number = "2">2</button>
+                        <button  class = "row-g" data-number = "3">3</button>
+                        <button  class ="col-o" data-operator = "+">+</button>
+                        <button class = "zero two row-g"data-number  = "0">0</button>
+                        <button  class = "row-g" data-number = ".">.</button>
+                        <button id ="equals" class = "col-o">=</button>
+                        <!-- the Html for Advanced features starts here -->
+            
+                    </div>
+            </section>
+            <footer>From CSC310 Group 5 ™</footer>
+        </article>
+    </body>
+</html>

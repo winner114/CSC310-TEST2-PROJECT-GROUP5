@@ -1,0 +1,150 @@
+
+.navbar{
+    list-style-type: none;
+    width:100%;
+    background-color: darkolivegreen;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li{
+display:inline;
+border-right:1px solid wheat;
+}
+
+.navbar li:hover{
+background-color: grey;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 34px 36px;
+    height:50px;
+    margin-top: 50px;
+}
+
+body{
+   background-color: wheat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+
+
+  table{
+    margin-left:200px;
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding:10px;
+    border-radius: 30px;
+    height:700px;
+  }
+
+  table label{
+    opacity:0;
+}
+
+table td{
+    border:solid 1px;
+    border-color:grey;
+    padding:15px;
+    font-family:monospace;
+    border-radius:5px ;
+    text-align: center;
+}
+
+  .intro{
+    font-size:4em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  form label{
+    font-weight:300px;
+    font-size:3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  form input{
+    margin-top: 30px;
+  }
+
+  input{
+    height:4em;
+    text-align: center;
+    box-shadow: 1em;
+    width:400px;
+    margin:0;
+  }
+
+.answer{
+    margin-left:100px;
+    margin-top:10px;
+    width:200px;
+    border-radius: 20px;
+}
+
+.answer:hover{
+    background-color:grey;
+}
+
+.form{
+    margin-left:550px;
+}
+
+footer{
+    font-family: sans-serif;
+    color: blanchedalmond;
+    background-color: darkolivegreen;
+}
+
+.space{
+height: 900px;
+}
+.space2{
+    height: 300px;
+}
+
+.join{
+    font-size: 72px;
+    margin-left:10%;
+    font-family: sans-serif;
+}
+
+.socials{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:72px;
+    margin-top:300px;
+    width:100%;
+    background-color:whitesmoke;
+}
+
+.social{
+    margin:20px;
+}
+
+.social:hover{
+    opacity:0.5;
+}
+
+.social_text{
+    margin-left:200px;
+}
+
+.social_container{
+    margin-left: 550px;
+}
+
+.think{
+    
+    background-image: url("image/background.png");
+    margin-top:-75px;
+}
