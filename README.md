@@ -20,4 +20,3 @@ the project will be updated to include scientific features so please watch out.
 - Html [for the content]
 - Css [for the styling]
 - Javascript [ for the Functionality]
-[Live Site](https://nathan-somto.github.io/Javascript-Calculator/)
